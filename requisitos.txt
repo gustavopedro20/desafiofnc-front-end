@@ -1,0 +1,7 @@
+REQUISITOS PARA EXECUTAR O PROJETO
+
+- Node 
+- Npm
+- Angular CLI
+- MySQL >= 8
+- Eclipse EE

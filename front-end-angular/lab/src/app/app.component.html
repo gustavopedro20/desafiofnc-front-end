@@ -1,0 +1,52 @@
+<!-- The content below is only a placeholder and can be replaced.--> 
+<div style="text-align:center">
+  <hr>
+  <h3>
+    <!-- Welcome to {{ title }}!  -->
+    Laboratório de coleta de exames
+  </h3>
+  <hr>
+  <!-- <img width="130" alt="Angular Logo"
+    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg=="> -->
+</div>
+
+
+<div class="text-center">
+  <button (click)="listarExame()" class="btn btn-primary">Listar Exames</button>
+  <button (click)="addExame()" class="btn btn-danger" style="margin-left: 10px">Cadastrar Exame</button>
+  <button (click)="addPaciente()" class="btn btn-info" style="margin-left: 10px">Cadastrar Paciente</button>
+  <button (click)="addProcedimento()" class="btn btn-warning" style="margin-left: 10px">Cadastrar Procedimento</button>
+</div>
+
+
+<!-- <div class="top">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Laboratório de coleta de exames</a>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+       <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(Página atual)</span></a>
+        </li> 
+        <li class="nav-item">
+          <a class="nav-link" (click)="listarExame()">Listar Exames</a>
+          href="listar-exames" 
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" (click)="addExame()">Cadastrar Exame</a>
+           href="add-exame" 
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" (click)="addPaciente()">Cadastrar Paciente</a>
+          href="add-paciente" 
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" (click)="addProcedimento()">Cadastrar Procedimento</a>
+          href="add-procedimento"
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div> -->
+
+
+<router-outlet></router-outlet>

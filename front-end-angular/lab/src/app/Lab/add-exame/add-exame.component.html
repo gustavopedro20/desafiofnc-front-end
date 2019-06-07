@@ -1,0 +1,30 @@
+<br>
+<div class="container col-md-6">
+  <div class="card">
+    <div class="car-header">
+      <br>
+      <h3 class="text-center">Cadastro de Exames</h3>
+    </div>
+    <div class="card-body">
+      <form (ngSubmit)="CadastrarExame()">
+        <div class="form-group">
+          <label for="">Paciente</label>
+          <input type="text" name="paciente" class="form-control" placeholder="João da Silva" [(ngModel)]="exame.paciente" >
+        </div>
+        <div class="form-group">
+          <label for="">Procedimento</label>
+          <input type="text" name="procedimento" class="form-control" placeholder="Procedimento 001" [(ngModel)]="exame.procedimento">
+        </div>
+        <div class="form-group">
+          <label for="">Data da coleta</label>
+          <input type="date" name="dataColeta" class="form-control" placeholder="dd/mm/yyyy" [(ngModel)]="exame.dataColeta">
+        </div>
+        <div class="form-group">
+          <label for="">Data da entrega</label>
+          <input type="date" name="dataEntrega" class="form-control" placeholder="dd/mm/yyyy" [(ngModel)]="exame.dataEntrega">
+        </div>
+        <button type="submit" class="btn btn-success">Cadastrar</button>
+      </form>
+    </div>
+  </div>
+</div>

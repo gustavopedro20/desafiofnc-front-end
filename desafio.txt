@@ -1,0 +1,41 @@
+1.   Um laboratório deseja automatizar o controle de coleta de exames de seus pacientes. 
+     Faça uma aplicação web utilizando Java e Angular que realize o cadastro de Pacientes, 
+     Procedimentos e Exames. Não é necessário persistir em banco de dados ou arquivo.
+
+Paciente 
+
+a.   Nome 
+
+b.   CPF 
+
+c.   E-mail 
+
+ 
+
+Procedimento
+
+a.   Código 
+
+b.   Nome 
+
+c.   Prazo máximo para análise em dias
+
+ 
+
+Exame
+
+b.   Paciente
+
+c.   Procedimentos
+
+d.   Data da coleta
+
+e.   Data da entrega do resultado
+
+ 
+
+* A data de entrega do resultado deve ser o próximo dia da semana (segunda a sexta) do procedimento de maior prazo.
+
+              
+
+Não há necessidade de criação de filtros ou relatórios, o atendente deverá conseguir visualizar todos os exames cadastrados.
